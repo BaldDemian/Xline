@@ -243,7 +243,7 @@ TypeOK ==
 (* 1. If a command is committed by CURP, command will eventually be synced by the   *)
 (*    back-end protocol.                                                            *)
 (*                                                                                  *)
-(* 2. If a command is committed by CURP, when the command is synced be the back-end *)
+(* 2. If a command is committed by CURP, when the command is synced by the back-end *)
 (*    protocol, there will never be a command with the same key between the command *)
 (*    and the recorded previous same-key command in the synced sequence.            *)
 (************************************************************************************)
