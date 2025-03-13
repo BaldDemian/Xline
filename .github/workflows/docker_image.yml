@@ -7,7 +7,7 @@ on:
       - master
 
 env:
-  CI_RUST_TOOLCHAIN: 1.74.0
+  CI_RUST_TOOLCHAIN: 1.81.0
   IMAGE_ID: ghcr.io/xline-kv/xline
 
 jobs:

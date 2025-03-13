@@ -1655,7 +1655,6 @@ impl<C: Command, RC: RoleChange> RawCurp<C, RC> {
         );
 
         st.role = Role::PreCandidate;
-        cst.votes_received = HashMap::from([(self.id(), true)]);
         st.leader_id = None;
         let _ig = self.ctx.leader_tx.send(None).ok();
         self.reset_election_tick();
